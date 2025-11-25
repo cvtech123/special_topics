@@ -45,8 +45,4 @@ Run Batch: Press ENTER or SPACE. The simulation will automatically run for 20 ep
 Save Data: Once the batch is complete (or at any time), press S to save the raw CSV logs.
 
 ## 📊 Output Files
-After pressing S, the following files will be generated in the strategy file:
-
-conflicts_log.csv: Detailed logs of every negotiation and conflict event.
-
-episode_summary.csv: High-level summary stats (Score, Steps, Wait Time) for each episode.
+After pressing S, the following files will be generated.
