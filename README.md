@@ -6,9 +6,9 @@ This project simulates a multi-agent environment where cooperative agents (Pac-M
 Ensure your directories are organized as follows:
 
 ```text
-/MultiAgent_Simulation
+/FINAL-PROJECT-SPECIAL-TOPICS
 │
-├── /Strategy1_Priority        # (S1) Priority-based Negotiation
+├── /Alternating Offers        # (S1) Alternating Offers Negotiation 
 │   ├── main.py
 │   ├── config.py
 │   ├── conflict_manager.py
@@ -16,21 +16,14 @@ Ensure your directories are organized as follows:
 │   ├── ghost.py
 │   └── maze.py
 │
-├── /Strategy2_Alternating     # (S2) Alternating Offers Negotiation
+├── /Priority-Based (baseline)   # (S2) Priority-based Negotiation
 │   ├── main.py
 │   ├── config.py
 │   ├── conflict_manager.py
 │   ├── agent.py
 │   ├── ghost.py
 │   └── maze.py
-│
-└── /Baseline_Ghost            # Aggressive Ghost Baseline
-    ├── main.py
-    ├── config.py
-    ├── conflict_manager.py
-    ├── agent.py
-    ├── ghost.py
-    └── maze.py
+
 ```
 
 ## ⚙️ Prerequisites
@@ -41,7 +34,7 @@ Pygame library
 pip install pygame
 
 ## 🚀How to Run 
-Navigate to the directory of the strategy you want to test and run the main.py script.
+Navigate to the directory FINAL-PROJECT-SPECIAL-TOPICS/Priority-Based (baseline) or /Alternating Offers test and run the main.py script.
 
 ## Simulation Workflow
 Follow these simple steps to generate data:
@@ -52,7 +45,7 @@ Run Batch: Press ENTER or SPACE. The simulation will automatically run for 20 ep
 Save Data: Once the batch is complete (or at any time), press S to save the raw CSV logs.
 
 ## 📊 Output Files
-After pressing S, the following files will be generated in the strategy folder:
+After pressing S, the following files will be generated in the strategy file:
 
 conflicts_log.csv: Detailed logs of every negotiation and conflict event.
 
